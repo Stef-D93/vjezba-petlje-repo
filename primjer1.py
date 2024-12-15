@@ -1,7 +1,7 @@
 pocetna_pozicija = 0
-cilj = 50
+cilj = 100
 trenutna_pozicija = 0
-brzina = 10
+brzina = 20
 #potrebno je doći od početne do ciljne pozicije
 #upotreba for petlje sa if i elif
 
