@@ -1,0 +1,20 @@
+pocetna_pozicija = 0
+cilj = 50
+trenutna_pozicija = 0
+brzina = 10
+#potrebno je doći od početne do ciljne pozicije
+#upotreba for petlje sa if i elif
+
+for x in range(10): 
+    print(trenutna_pozicija)
+    if trenutna_pozicija == cilj:
+        print("Stigli ste na cilj!")
+        break
+    elif trenutna_pozicija >cilj:
+        print("Prošli ste cilj!")
+    elif trenutna_pozicija <cilj:
+        print("Niste još stigli na cilj!")
+    trenutna_pozicija += brzina
+
+
+    
